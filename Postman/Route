@@ -1,0 +1,13 @@
+{
+	"image" : "https://www.google.com",
+    "title" : "Bank Chor",
+    "genres" : ["crime", "Drama"],
+    "release" : "1995-09-15",
+    "runtime" : 174,
+    "country" : "USA",
+    "language" : ["English", "Latin"],
+    "director" : "Ayon Das",
+    "rating" : 9.3,
+    "budget" : 25000000,
+    "gross" : 2800000000
+}
