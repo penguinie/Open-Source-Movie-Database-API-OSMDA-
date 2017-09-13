@@ -1,0 +1,20 @@
+//Copy Blank before writing
+{
+	"content" : [
+		{
+			"cover" : "",
+			"title" : "",
+			"genres" : ["", ""],
+			"release" : "",
+			"runtime" : ,
+			"country" : "",
+			"language" : ["", ""],
+			"director" : "",
+			"rating" : ,
+			"box_office" : {
+    			"budget" : ,
+    			"gross" :
+			}
+		},
+	]
+}
