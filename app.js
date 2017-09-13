@@ -49,25 +49,12 @@ app.get("/movies/:id", function(req, res){
 });
 
 app.post("/movies", function(req, res){
-  var newMovie = {
-    cover : req.body.image,
-    title : req.body.title,
-    genres : [req.body.genres],
-    release : new Date(req.body.release),
-    runtime : req.body.runtime,
-    country : req.body.country,
-    language : [req.body.language],
-    director : req.body.director,
-    rating : req.body.rating,
-    box_office : {
-      budget : req.body.budget,
-      gross : req.body.gross
-    }
+  var i=0;
+  for(i=0; i<3; i++){
+    var newMovie = req.body.content[i];
+    Movie.create(newMovie);
   }
-  Movie.create(newMovie, function(error, newCreatedMovie){
-    if(error){res.send(error);}
-    else{res.redirect("/movies");}
-  });
+  res.redirect("/movies");
 });
 
 app.put("/movies/:id", function(req, res){
