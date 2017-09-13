@@ -1,0 +1,27 @@
+{
+  "name": "open-source-movie-database-api",
+  "version": "1.0.0",
+  "description": "OSMDA is a leading company headquatered in India delivering open source movie related data for developers to develop web applications. This website provides free api for developers in each and every corner of the world. This website was created in September 2017.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "osmda",
+    "open",
+    "source",
+    "movie",
+    "database",
+    "api",
+    "free"
+  ],
+  "author": "Ayon Das",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.11"
+  }
+}
