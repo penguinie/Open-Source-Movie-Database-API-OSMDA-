@@ -1,20 +1,155 @@
-//Copy Blank before writing
+//10 Data
 {
 	"content" : [
 		{
-			"cover" : "",
-			"title" : "",
-			"genres" : ["", ""],
-			"release" : "",
-			"runtime" : ,
-			"country" : "",
-			"language" : ["", ""],
-			"director" : "",
-			"rating" : ,
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "The Shawshank Redemption",
+			"genres" : ["Crime", "Drama"],
+			"release" : "1994-10-14",
+			"runtime" : 142,
+			"country" : ["USA"],
+			"language" : ["English"],
+			"director" : "Frank Darabont",
+			"rating" : 9.3,
 			"box_office" : {
-    			"budget" : ,
-    			"gross" :
+    			"budget" : 25000000,
+    			"gross" : 28341469
 			}
 		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+			"title" : "The Godfather",
+			"genres" : ["Crime", "Drama"],
+			"release" : "1972-03-24",
+			"runtime" : 175,
+			"country" : ["USA"],
+			"language" : ["English", "Italian", "Latin"],
+			"director" : "Francis Ford Coppola",
+			"rating" : 9.2,
+			"box_office" : {
+    			"budget" : 6000000,
+    			"gross" : 134821952
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+			"title" : "The Godfather: Part II",
+			"genres" : ["Crime", "Drama"],
+			"release" : "1974-12-20",
+			"runtime" : 202,
+			"country" : ["USA"],
+			"language" : ["English", "Italian", "Spanish", "Latin", "Sicilian"],
+			"director" : "Francis Ford Coppola",
+			"rating" : 9,
+			"box_office" : {
+    			"budget" : 13000000,
+    			"gross" : 57300000
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "The Dark Knight",
+			"genres" : ["Action", "Crime", "Drama"],
+			"release" : "2008-07-18",
+			"runtime" : 152,
+			"country" : ["USA", "UK"],
+			"language" : ["English", "Mandarin"],
+			"director" : "Christopher Nolan",
+			"rating" : 9,
+			"box_office" : {
+    			"budget" : 185000000,
+    			"gross" : 533316061
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BYzNlNWRmNjgtYWZlOS00MTQ1LTk5MjItODFmNThjNzM1MTM5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "12 Angry Men",
+			"genres" : ["Crime", "Drama"],
+			"release" : "1957-04-01",
+			"runtime" : 96,
+			"country" : ["USA"],
+			"language" : ["English"],
+			"director" : "Sidney Lumet",
+			"rating" : 8.9,
+			"box_office" : {
+    			"budget" : 350000,
+    			"gross" : 350000
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "Schindler's List",
+			"genres" : ["Biography", "Drama", "History"],
+			"release" : "1994-02-04",
+			"runtime" : 195,
+			"country" : ["USA"],
+			"language" : ["English", "Hebrew", "German", "Polish"],
+			"director" : "Steven Spielberg",
+			"rating" : 8.9,
+			"box_office" : {
+					"budget" : 22000000,
+					"gross" : 96067179
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "Pulp Fiction",
+			"genres" : ["Crime", "Drama"],
+			"release" : "1994-10-14",
+			"runtime" : 154,
+			"country" : ["USA"],
+			"language" : ["English", "Spanish", "French"],
+			"director" : "Quentin Tarantino",
+			"rating" : 8.9,
+			"box_office" : {
+					"budget" : 8000000,
+					"gross" : 107930000
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "The Lord of the Rings: The Return of the King",
+			"genres" : ["Adventure", "Drama", "Fantasy"],
+			"release" : "2003-12-17",
+			"runtime" : 201,
+			"country" : ["USA", "New Zealand"],
+			"language" : ["English", "Quenya", "Old English", "Sindarin"],
+			"director" : "Peter Jackson",
+			"rating" : 8.9,
+			"box_office" : {
+					"budget" : 94000000,
+					"gross" : 377019252
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "The Good, the Bad and the Ugly",
+			"genres" : ["Western"],
+			"release" : "1967-12-29",
+			"runtime" : 161,
+			"country" : ["Italy", "Spain", "West Germany", "USA"],
+			"language" : ["Italian", "English"],
+			"director" : "Sergio Leone",
+			"rating" : 8.9,
+			"box_office" : {
+					"budget" : 1200000,
+					"gross" : 6100000
+			}
+		},
+		{
+			"cover" : "https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+			"title" : "Fight Club",
+			"genres" : ["Drama"],
+			"release" : "1999-10-15",
+			"runtime" : 139,
+			"country" : ["USA", "Germany"],
+			"language" : ["English"],
+			"director" : "David Fincher",
+			"rating" : 8.8,
+			"box_office" : {
+					"budget" : 63000000,
+					"gross" : 37023395
+			}
+		}
 	]
 }
