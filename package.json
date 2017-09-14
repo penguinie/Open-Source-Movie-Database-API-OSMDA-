@@ -15,7 +15,7 @@
     "api",
     "free"
   ],
-  "author": "Ayon Das",
+  "author": "Penguinie",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.0",
