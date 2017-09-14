@@ -1,4 +1,4 @@
-# Open-Source-Movie-Database-API-OSMDA-
-OSMDA is a leading company headquatered in India delivering open source movie related data for developers to develop web applications. This website provides free api for developers in each and every corner of the world. This website was created in September 2017.
+# Open Source Movie Database API (OSMDA)
+OSMDA can be a leading company delivering open source movie related data for developers to develop web applications. This repository will help developers to build an API which will provide free API service for developers in each and every corner of the world. This framework was created in September 2017.
 
-UNDER PROCESSING. WILL BE NOTIFIED WHEN IT WILL BE IN WORKING CONDITION.
+The tutorial regarding API creation will be uploaded here soon. Thank You.
