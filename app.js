@@ -12,7 +12,7 @@ var movieSchema = new mongoose.Schema({
   genres : [],
   release : Date,
   runtime : Number,
-  country : String,
+  country : [],
   language : [],
   director : String,
   rating : Number,
@@ -50,7 +50,7 @@ app.get("/movies/:id", function(req, res){
 
 app.post("/movies", function(req, res){
   var i=0;
-  for(i=0; i<3; i++){
+  for(i=0; i<10; i++){
     var newMovie = req.body.content[i];
     Movie.create(newMovie);
   }
@@ -66,7 +66,7 @@ app.put("/movies/:id", function(req, res){
       movie.genres = [req.body.genres];
       movie.release = new Date(req.body.release);
       movie.runtime = req.body.runtime;
-      movie.country = req.body.country;
+      movie.country = [req.body.country];
       movie.language = [req.body.language];
       movie.director = req.body.director;
       movie.rating = req.body.rating;
